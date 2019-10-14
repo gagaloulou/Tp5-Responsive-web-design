@@ -11,9 +11,17 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
+<!--Popper.js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+
+
 	</head>
 	<body>
+		<div class="container">
+		
 		<header>
+			<div class="container">
 			<div class="wrapper">
 				<div class="logo-search">
 					<img class="pull-left" src="img/logo.png" />
@@ -24,15 +32,26 @@
 					<input type="submit" name="submit" value="Rechercher" class="submit">
 				</form>
 				<div class="user">
-				    <a href="#">Luke Chesser</a>
+				    <!--<a href="#">Luke Chesser</a>-->
+				    <div class="dropdown">
+              			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    					Dropdown button
+  						</button>
+  						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    						<a class="dropdown-item" href="#">Action</a>
+    						<a class="dropdown-item" href="#">Another action</a>
+    						<a class="dropdown-item" href="#">Something else here</a>
+  						</div>
+					</div>
 				</div>
 			</div>
+		</div>
 		</header>
 
-		<!--<aside class ="col-xl-2 col-lg-2 d-xl-block d-lg-block d-md-none d-none">-->
+
 
 		<div class="row">
-			<aside class="col-xl-2 offset-xl-1 d-xl-block col-lg-2 offset-lg-1 d-lg-block d-md-none d-sm-none d-none text-left">
+			<aside class="col-xl-2 col-lg-2 offset-xl-1 offset-lg-1 d-xl-block d-lg-block d-md-none d-sm-none d-none text-left">
 
 			<h3>Browse</h3>
 			<nav class="browse">
@@ -72,6 +91,7 @@
 					</section>
 					<div class="links">
 						<div>
+							<div
 							<a href="#">Collection</a>
 							<a href="#">History</a>
 						</div>
@@ -166,5 +186,6 @@
 			</section>
 		</main>
 	</div>
+</div>
 	</body>
 </html>
