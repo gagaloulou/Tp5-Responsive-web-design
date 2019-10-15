@@ -92,24 +92,24 @@ h1 {
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 1em;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 1,2em 0em 0,8em 0em;
+    border-bottom: 0,01em solid #e1e6e9;
+    margin-bottom: 1,5em;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 1em;
 }
 
 .stats-links a:last-child {
@@ -117,7 +117,7 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -217,8 +217,12 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 800px)
 {
    input.search {display:none;}
 }
 
+@media screen and (max-width: 600px)
+{
+    .share {display: none;}
+}
