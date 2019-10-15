@@ -217,5 +217,8 @@ nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; 
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 
-
+@media screen and (max-width: 1000px)
+{
+   input.search {display:none;}
+}
 
